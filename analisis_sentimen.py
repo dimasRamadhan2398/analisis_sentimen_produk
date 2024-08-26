@@ -70,6 +70,6 @@ if not new_review_0:
   st.write(' ')
 else:
   if new_y_pred == 1:
-    st.write('Positive Review')
+    st.write("Komen tersebut adalah komen yang :blue[POSITIF]")
   else:
-    st.write('Negative Review')
+    st.write("Komen tersebut adalah komen yang :red[NEGATIF]")
