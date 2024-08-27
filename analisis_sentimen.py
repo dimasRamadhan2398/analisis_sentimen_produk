@@ -10,7 +10,7 @@ from nltk.stem.porter import PorterStemmer
 
 st.title('ANALISIS SENTIMEN PRODUK')
 st.subheader(
-    "Aplikasi atau tools ini berguna untuk memprediksi sentimen produk berdasarkan komentar pengguna atau pembeli, apakah produk tersebut mendapatkan respon positif atau negatif"
+    "Tools ini berguna untuk memprediksi sentimen produk berdasarkan komentar pengguna atau pembeli, apakah produk tersebut mendapatkan respon positif atau negatif"
 )
 
 dataset = pd.read_csv("reviews.csv")
